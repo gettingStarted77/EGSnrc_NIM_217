@@ -45,7 +45,7 @@
     
   3. apt 命令
     
-    ![](file:///C:/Users/12648/AppData/Roaming/marktext/images/2023-02-04-18-32-34-image.png?msec=1675523364652)
+    ![image](https://github.com/gettingStarted77/EGSnrc_NIM_217/blob/main/2023-02-04-18-32-34-image.png)
     
   4. VMware虚拟机安装ubuntu20.04与Windows如果不能相互复制与粘贴
     

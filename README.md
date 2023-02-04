@@ -68,7 +68,7 @@
     
   2. a C compiler (preferably `gcc`)
     
-     > 作为gfortran的依赖已被安装
+    > 作为gfortran的依赖已被安装
     
   3. a C++ compiler (preferably `g++`)
     

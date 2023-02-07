@@ -60,7 +60,7 @@
   
 - 安装prerequisite software
   
-  > 一条安装： `sudo apt install gfortran gcc g++ make tk grace libmotif-dev qt5-qmake at`
+  > 一条安装： `sudo apt install gfortran gcc g++ make tk grace libmotif-dev qt5-qmake qtbase5-dev at`
   
   1. a Fortran compiler (preferably `gfortran`)
     
@@ -96,7 +96,7 @@
     
   8. *optional:* the Qt4 or Qt5 development tools (e.g. `qt5-default` and `qt5-qmake`), to re-compile the Qt GUIs
     
-    `sudo apt install qt5-qmake`
+    `sudo apt install qt5-qmake qtbase5-dev`
     
   9. *optional:* a job scheduler of your choice (e.g. the package `at`), for parallel processing
     

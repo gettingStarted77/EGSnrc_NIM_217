@@ -18,6 +18,7 @@
 - 下载ubuntui desktop 22.04 LTS
   
 - 开机后修改清华镜像源（[ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)），以提高软件下载速度
+- apt包管理器使用说明
   
   1. 更新本地包缓存
     

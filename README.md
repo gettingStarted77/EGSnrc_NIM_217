@@ -109,7 +109,7 @@
   
   > 需要下载git：`sudo apt install git`
   
-  `git clone https://github.com/nrc-cnrc/EGSnrc.git`
+  `git clone --depth=1 https://github.com/nrc-cnrc/EGSnrc.git`
   
 - 安装
   

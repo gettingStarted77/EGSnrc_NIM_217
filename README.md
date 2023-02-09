@@ -113,7 +113,7 @@
   
 - 安装
   
-  > HEN_HOUSE: Points to location of the EGSnrc system
+  > HEN_HOUSE: Points to location of the EGSnrc system
   > 
   > EGS_HOME: Points to user’s working directory, where applications are copied
   

@@ -124,8 +124,8 @@
 
 - 检查安装
   
-  1. env
+  1. 查看环境变量：`env | grep "EGS"`
     
-  2. alias
+  2. 查看别名：`alias`
     
-  3. 查看EGSnrc可执行文件
+  3. 查看EGSnrc可执行文件：`ls -al $EGS_HOME/bin/*/` 和 `ls -al $HEN_HOUSE/bin/*/`

@@ -1,4 +1,4 @@
-一 VMware Workstation 17 Pro for windows安装
+# 一 VMware Workstation 17 Pro for windows安装
 
 - 官方网站下载（[https://www.vmware.com/go/getworkstation-win]()）
   
@@ -119,7 +119,7 @@
   
   - 使用gui安装
     
-  - 使用脚本安装
+  - 使用脚本安装: 在HEN_HOUSE目录下，`./scripts/configure`
     
 
 - 检查安装

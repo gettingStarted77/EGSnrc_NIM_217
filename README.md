@@ -11,13 +11,13 @@
 
 # 二 ubuntu虚拟机安装
 
-- 查看本机cpu线程数，虚拟分配线程数应小于本机，VMware最大支持32线程
+- 查看宿主机（本机）cpu线程数，虚拟分配线程数应小于宿主机，VMware最大支持32线程
   
-- 查看本机内存，分配内存应小于本机，上不封顶
+- 查看宿主机内存，分配内存应小于宿主机，上不封顶
   
 - 下载ubuntui desktop 22.04 LTS
   
-- 开机后修改清华镜像源（[ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)），以提高软件下载速度
+- 开机后修改清华镜像源（[ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)），以提高包下载速度
 - apt包管理器使用说明
   
   1. 更新本地包缓存

@@ -40,7 +40,7 @@
     
   4. VMware虚拟机安装ubuntu20.04与Windows如果不能相互复制与粘贴: `sudo apt install open-vm-tools open-vm-tools-desktop`
     
-    安装后重启
+     安装后重启
     
 
 # 三 EGSnrc官网（[What is EGSnrc? | EGSnrc](https://nrc-cnrc.github.io/EGSnrc/)）

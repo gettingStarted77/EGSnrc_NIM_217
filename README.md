@@ -20,37 +20,25 @@
 - 开机后修改清华镜像源（[ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)），以提高包下载速度
 - apt包管理器使用说明
   
-  1. 更新本地包缓存
-    
-    `sudo apt update `
+  1. 更新本地包缓存: `sudo apt update `
     
     命令不仅更新存储库索引，还告知存储库中是否可用软件以及有多少新版本可用.
     
   2. 查找与安装包说明
     
-    - 使用apt-cache搜索包名
+    - 使用apt-cache搜索包名: `apt-cache search package_name`
     
-    `apt-cache search package_name`
+    - 使用apt-cache搜索关键字: `apt-cache search “package_keyword”`
     
-    - 使用apt-cache搜索关键字
+    - 使用apt-cache显示有关程序包的基本信息: `apt-cache show package_name`
     
-    `apt-cache search “package_keyword”`
-    
-    - 使用apt-cache显示有关程序包的基本信息
-    
-    `apt-cache show package_name`
-    
-    - 安装程序包
-    
-    `sudo apt install package_name`
+    - 安装程序包: `sudo apt install package_name`
     
   3. apt 命令
     
     ![image](https://github.com/gettingStarted77/EGSnrc_NIM_217/blob/main/2023-02-04-18-32-34-image.png)
     
-  4. VMware虚拟机安装ubuntu20.04与Windows如果不能相互复制与粘贴
-    
-    `sudo apt install open-vm-tools open-vm-tools-desktop`
+  4. VMware虚拟机安装ubuntu20.04与Windows如果不能相互复制与粘贴: `sudo apt install open-vm-tools open-vm-tools-desktop`
     
     安装后重启
     

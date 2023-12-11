@@ -81,13 +81,13 @@
     
   5. *optional:* the Tcl/Tk interpreter and widget toolkit, version 8.0 or later
     
-    > 可视化界面，如beamntc_gui
+      > 可视化界面，如beamntc_gui
     
     `sudo apt install tk`
     
   6. *optional:* the Grace plotting tool (providing the `xmgrace` command), version 5.0 or later
     
-    > 终端可输入xmgrace单独使用，作图工具
+     > 终端可输入xmgrace单独使用，作图工具
     
     `sudo apt install grace`
     
@@ -101,7 +101,7 @@
     
   9. *optional:* a job scheduler of your choice (e.g. the package `at`), for parallel processing
     
-    > 多线程
+      > 多线程
     
     `sudo apt install at`
     

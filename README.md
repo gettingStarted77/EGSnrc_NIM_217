@@ -63,53 +63,35 @@
   
   > 一条命令安装以下所有依赖： `sudo apt install gfortran gcc g++ make tk grace libmotif-dev qt5-qmake qtbase5-dev at`
   
-  1. a Fortran compiler (preferably `gfortran`)
-    
-    `sudo apt install gfortran`
+  1. a Fortran compiler (preferably `gfortran`): `sudo apt install gfortran`
     
   2. a C compiler (preferably `gcc`)
     
      > 作为gfortran的依赖已被安装
     
-  3. a C++ compiler (preferably `g++`)
+  3. a C++ compiler (preferably `g++`): `sudo apt install g++`
     
-    `sudo apt install g++`
+  4. the GNU `make` utility: `sudo apt install make`
     
-  4. the GNU `make` utility
-    
-    `sudo apt install make`
-    
-  5. *optional:* the Tcl/Tk interpreter and widget toolkit, version 8.0 or later
+  5. *optional:* the Tcl/Tk interpreter and widget toolkit, version 8.0 or later: `sudo apt install tk`
     
       > 可视化界面，如beamntc_gui
     
-    `sudo apt install tk`
-    
-  6. *optional:* the Grace plotting tool (providing the `xmgrace` command), version 5.0 or later
+  6. *optional:* the Grace plotting tool (providing the `xmgrace` command), version 5.0 or later: `sudo apt install grace`
     
      > 终端可输入xmgrace单独使用，作图工具
     
-    `sudo apt install grace`
+  7. *optional:* Open Motif development package, to compile dosxyz_show (e.g. `libmotif-dev`): `sudo apt install libmotif-dev`
     
-  7. *optional:* Open Motif development package, to compile dosxyz_show (e.g. `libmotif-dev`)
+  8. *optional:* the Qt4 or Qt5 development tools (e.g. `qt5-default` and `qt5-qmake`), to re-compile the Qt GUIs: `sudo apt install qt5-qmake qtbase5-dev`
     
-    `sudo apt install libmotif-dev`
-    
-  8. *optional:* the Qt4 or Qt5 development tools (e.g. `qt5-default` and `qt5-qmake`), to re-compile the Qt GUIs
-    
-    `sudo apt install qt5-qmake qtbase5-dev`
-    
-  9. *optional:* a job scheduler of your choice (e.g. the package `at`), for parallel processing
+  9. *optional:* a job scheduler of your choice (e.g. the package `at`), for parallel processing: `sudo apt install at`
     
       > 多线程
     
-    `sudo apt install at`
-    
-- 下载EGSnrc源码
+- 下载EGSnrc源码:`git clone --depth=1 https://github.com/nrc-cnrc/EGSnrc.git`
   
-  > 需要下载git：`sudo apt install git`
-  
-  `git clone --depth=1 https://github.com/nrc-cnrc/EGSnrc.git`
+  > 需要先下载git：`sudo apt install git`
   
 - 安装
   

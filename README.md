@@ -61,7 +61,7 @@
   
 - 安装prerequisite software
   
-  > 一条安装： `sudo apt install gfortran gcc g++ make tk grace libmotif-dev qt5-qmake qtbase5-dev at`
+  > 一条命令安装以下所有依赖： `sudo apt install gfortran gcc g++ make tk grace libmotif-dev qt5-qmake qtbase5-dev at`
   
   1. a Fortran compiler (preferably `gfortran`)
     
